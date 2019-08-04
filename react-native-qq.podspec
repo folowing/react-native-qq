@@ -17,6 +17,8 @@ Pod::Spec.new do |s|
 
   s.dependency 'React'
 
-  s.frameworks = 'SystemConfiguration','CoreTelephony','TencentOpenAPI'
-  s.library = 'sqlite3','c++','z','iconv'
+  s.frameworks = 'SystemConfiguration', 'CoreTelephony'
+  s.library = 'sqlite3', 'c++', 'z', 'iconv'
+
+  s.ios.vendored_frameworks = 'ios/RCTQQAPI/TencentOpenAPI.framework'
 end
