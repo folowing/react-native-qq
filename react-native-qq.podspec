@@ -21,5 +21,5 @@ Pod::Spec.new do |s|
   s.library = 'sqlite3', 'c++', 'z', 'iconv'
 
   s.ios.vendored_frameworks = 'ios/RCTQQAPI/TencentOpenAPI.framework'
-  s.preserve_paths = 'ios/RCTQQAPI/*'
+  # s.preserve_paths = 'ios/RCTQQAPI/*'
 end
